@@ -17,6 +17,11 @@
  font-weight: 600;
  color:#000000;
 }
+
+.form-title>p{
+ font-size: 16px;
+ font-weight: 400;
+}
 .otp-container{
  width: 456px;
  height: 74px;

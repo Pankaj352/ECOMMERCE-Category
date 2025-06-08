@@ -16,6 +16,8 @@ export const getCategoriesWithPagination = async (req, res) => {
       categories,
     });
   } catch (error) {
+    console.log(error);
+    
     res.status(500).json({ message: "Server Error", error });
   }
 };

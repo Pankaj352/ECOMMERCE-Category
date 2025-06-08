@@ -127,6 +127,8 @@ export const getUserById = async (req, res) => {
 
     res.status(200).json({ otp: user.otp }); // only send otp for demo/testing
   } catch (error) {
+    console.log(error);
+    
     res.status(500).json({ message: "Server error", error });
   }
 };
