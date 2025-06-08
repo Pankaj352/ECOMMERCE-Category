@@ -1,0 +1,20 @@
+.form-subtitle{
+ text-align: center;
+ font-size: 24px;
+ font-weight: 500;
+}
+
+.subtitle-desc{
+ text-align: center;
+ font-size: 16px;
+ font-weight: 400;
+}
+
+.password-show{
+ position: relative;
+ float: right;
+ bottom: 33px;
+ font-size: 16px;
+ cursor: pointer;
+ text-decoration: underline;
+}

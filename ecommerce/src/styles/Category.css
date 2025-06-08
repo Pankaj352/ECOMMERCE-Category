@@ -1,0 +1,102 @@
+.category-container {
+  width: 576px;
+  height: 100%;
+  border-radius: 20px;
+  border: 1px solid #c1c1c1;
+  background-color: #fff;
+  margin: 40px auto;
+}
+.category-title-box {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.category-heading {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.horizontal-line {
+  height: 1px;
+  background-color: #eaeaea;
+  margin: 0 40px;
+}
+
+.error {
+  margin: 0 40px;
+}
+.category-title-box > .description {
+  font-size: 16px;
+  font-weight: 400;
+}
+.category-list-container {
+  margin: 10px 60px;
+}
+.category-list-heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.category-list {
+  display: block;
+  margin: 10px 0;
+}
+
+.category-list-item {
+  margin: 10px 0;
+  padding: 8px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+.category-list-item>label{
+ font-size: 16px;
+ font-weight: 400;
+ cursor: pointer;
+}
+
+.check-box{
+ border:2px solid #FFFFFF;
+ transform: scale(1.5);
+ margin-right: 15px;
+
+}
+
+.check-box:checked{
+ background-color: #000000;
+}
+
+.category-pagination{
+  width: 293px;
+  margin: 40px auto;
+  justify-content: center;
+  align-items: center;
+}
+.category-page-button{
+  border: none;
+  background-color: #fff;
+
+}
+.category-page-number {
+  background-color: white;
+  padding: 6px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.category-page-number.active {
+  background-color: #000000;
+  color: white;
+}
+
+.category-page-ellipsis {
+  padding: 6px 10px;
+  font-size: 16px;
+  color: #888;
+}

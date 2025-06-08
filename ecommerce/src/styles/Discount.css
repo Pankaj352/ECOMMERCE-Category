@@ -1,0 +1,15 @@
+.discount-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
+ height: 36px;
+ background-color: #F4F4F4;
+}
+
+.discount-text{
+ font-family: Inter;
+ font-size: 14px;
+ font-weight: 500;
+ color: #000000;
+}

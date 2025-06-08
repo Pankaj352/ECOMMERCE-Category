@@ -1,0 +1,23 @@
+header{
+ max-width: 1440px;
+ height: 100px;
+ background-color: #fff;
+ display: block;
+ margin: 0 20px;
+}
+
+.user-details{
+ max-width: 1440px;
+ height: 36px;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-end;
+ gap: 20px;
+}
+
+.same{
+ font-size: 12px;
+ font-weight: 400;
+ font-family: Inter;
+ color: #333333;
+}
