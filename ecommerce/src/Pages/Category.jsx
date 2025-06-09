@@ -7,8 +7,7 @@ import {
   FaAngleDoubleRight,
 } from "react-icons/fa";
 import "../styles/Category.css";
-
-const api = "http://localhost:8000/api";
+import api from "../API/index";
 
 const Category = ({ userId }) => {
   const [categories, setCategories] = useState([]);

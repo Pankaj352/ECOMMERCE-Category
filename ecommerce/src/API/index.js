@@ -1,4 +1,4 @@
 
- const api = "http://localhost:8000/api";
+ const api = "https://ecommerce-category-mu.vercel.app/api";
 
 export default api;
